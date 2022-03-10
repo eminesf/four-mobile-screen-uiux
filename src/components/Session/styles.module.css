@@ -1,0 +1,16 @@
+.container {
+  @apply flex flex-col justify-center items-center text-bone;
+  
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.underline {
+  @apply bg-grey-davys mt-1;
+
+  position: absolut;
+  height: 1px;
+  width: 120%;
+}
