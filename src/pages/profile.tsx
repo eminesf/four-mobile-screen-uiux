@@ -7,9 +7,11 @@ import Session from "../components/Session/Session";
 const Profile: NextPage = () => {
   return (
     <>
-      <div className="w-full px-5 py-5 text-bone text-3xl">
-        <AiOutlineClose />
-      </div>
+      <a href="dashboard">
+        <div className="w-full px-5 py-5 text-bone text-3xl">
+          <AiOutlineClose className="hover:cursor-pointer" />
+        </div>
+      </a>
       <div className="flex flex-col items-center h-screen">
         <div>
           <Image
@@ -31,9 +33,11 @@ const Profile: NextPage = () => {
           <Session sessionText="Alterar dados cadastrais" />
           <Session sessionText="Privacidade" />
         </div>
-        <div className="pt-8 text-bone text-4xl">
-          <AiOutlineCloseCircle />
-        </div>
+        <a href="dashboard">
+          <div className="pt-8 text-bone text-4xl hover:cursor-pointer">
+            <AiOutlineCloseCircle />
+          </div>
+        </a>
       </div>
     </>
   );

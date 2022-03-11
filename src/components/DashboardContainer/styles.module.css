@@ -1,0 +1,6 @@
+.container
+{
+  @apply gap-11;
+  display: grid;
+  grid-template-columns: auto auto;
+}

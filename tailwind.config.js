@@ -13,6 +13,7 @@ module.exports = {
         "bone": "#E5DCC5",
         "green-craoyla": "#939F5C",
         "green-moss": "#BBCE8A",
+        "silver-sonic": "#797270",
       },
     },
   },
